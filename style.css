@@ -135,6 +135,25 @@ section {
     background: #fff;
     color: black;
 }
+.btn-card {
+    color: white;
+    background: crimson;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 18px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin: 30px auto;
+    transition: .7s ease;
+}
+
+.btn-card:hover {
+    background: #fff;
+    color: black;
+}
 
 .main-icon a {
     color: azure;
