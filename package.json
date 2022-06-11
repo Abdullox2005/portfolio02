@@ -2,7 +2,7 @@
   "name": "portfolio02",
   "version": "1.1.0",
   "description": "updeta portfolio",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "updeta"
   },
@@ -10,5 +10,13 @@
     "portfolio"
   ],
   "author": "Abdullokh Ortiqov",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullox2005/portfolio02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdullox2005/portfolio02/issues"
+  },
+  "homepage": "https://github.com/Abdullox2005/portfolio02#readme"
 }
