@@ -52,17 +52,31 @@
 .slider{
     width: 100%;
     height: 100%;
-    background: url("../img/ноутбук-apple-macbook-air-m-и-свой-логотип-черно-белую-фотографию-стаффорд-211198309.jpg")center/cover,no-repeat;
+    background: url("../img/stol-k.jpg")center/cover no-repeat fixed;
 }
 .slider2{
     width: 100%;
     height: 100%;
-    background: url("../img/iphone-12-mini-black-home-screen-full-2-scaled.webp")center/cover,no-repeat;
+    background: url("../img/iphone-12-mini-black-home-screen-full-2-scaled.webp")center/cover no-repeat fixed;
 }
 .slider3{
     width: 100%;
     height: 100%;
-    background: url("../img/stol-k03.jpg")center/cover,no-repeat;
+    background: url("../img/Web-design.jpg")center/cover no-repeat fixed;
+}
+.gellery{
+    width: 500px;
+    height: 500px;
+    position: center;
+}
+.pic{
+    background: url("../img/advertising-strategy-marketing-investment-meeting-team-work-free-vector.webp")center/cover;
+}
+.pic2{
+    background: url("../img/Messaging_fun-rafiki.svg")center/cover;
+}
+.pic1{
+    background: url("../img/Creative team-cuate.svg")center/cover;
 }
 .img-logo{
     width: 270px;
@@ -82,28 +96,13 @@
     border-radius: 50%;
     background: url("../img/imagen11.png") center/cover,no-repeat;
 }
-.gellery{
-    width: 500px;
-    height: 500px;
-    border-radius: 30px;
-}
-.pic{
-    background: url("../img/advertising-strategy-marketing-investment-meeting-team-work-free-vector.webp")center/cover;
-}
-.pic2{
-    background: url("../img/Messaging_fun-rafiki.svg")center/cover;
-}
-.pic1{
-    background: url("../img/Creative team-cuate.svg")center/cover;
-}
-
 .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-    padding-top: 75px;
+    padding-top: 150px;
     font-size: 40px;
     font-weight: 300;
     line-height: 1;
@@ -126,3 +125,4 @@
     left: 0;
     background-color:rgba(0,0,0,0.6) ;
 }
+

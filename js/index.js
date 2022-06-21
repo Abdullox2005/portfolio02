@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded',function (){
         header.classList.toggle('sticky',window.scrollY > 0)
     })
    const menuBtn = document.querySelector('.menu-btn')
-    const nav =document.querySelector('.nacvigation')
+    const nav = document.querySelector('.nacvigation')
     menuBtn.addEventListener('click',() => {
         menuBtn.classList.toggle('active')
         nav.classList.toggle('active')

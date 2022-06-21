@@ -27,7 +27,7 @@ header.sticky{
 header.sticky .nacvigation a:hover{
     color: #000016;
 }
-header .brend {
+header .brand {
     color: white;
     font-size: 32px;
     font-weight: 700;
@@ -428,8 +428,14 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.contact .content .rows {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
-.contact .row .card {
+.contact .row .card{
     background: #fff;
     width: 240px;
     margin: 20px;
@@ -474,8 +480,8 @@ section {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
-
 }
+
 .contact-form .input-box input,
 .contact-form .input-box textarea{
     color: #111111;
@@ -488,7 +494,6 @@ section {
     border-radius: 5px;
     resize: none;
 }
-
 .contact-form .input-box .send-btn{
     color: #cccccc;
     background: crimson;
@@ -566,6 +571,7 @@ section {
         height: 40px;
         right: 0;
         margin: 0 20px;
+        color: #fff;
         cursor: pointer;
         transition: .5s ease;
     }
